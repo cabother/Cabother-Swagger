@@ -59,7 +59,7 @@ https://www.nuget.org/packages/Cabother.Swagger.UI/
 - Seu resultado será visível na porta default 5000 / 5001, exemplo: `https://localhost:5001/swagger` 
     - ![controller](./Images/swagger-example.png)
 
-Por padrão a documentação está disponível no endpoint `/swagger` . A documentação pode ser customizada a partir do arquivo `appsettings.json' alterando a seção exemplificada abaixo:
+Por padrão a documentação está disponível no endpoint `/swagger` . A documentação pode ser customizada a partir do arquivo `appsettings.json` alterando a seção exemplificada abaixo:
 
 ```json
 {
@@ -69,7 +69,7 @@ Por padrão a documentação está disponível no endpoint `/swagger` . A docume
     "Owner": "Seu Nome",
     "Email": "seuemail@seudominio.com",
     "DocJson": "/swagger/v1/swagger.json",
-    "DocRoute": "swagger"
+    "DocRoute": "api/docs"
   }
 }
 ```

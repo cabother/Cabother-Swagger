@@ -60,6 +60,7 @@ namespace Cabother.Swagger.UI.Extensions
                     description.GroupName.ToUpperInvariant());
                 }
 
+                options.RoutePrefix = "api/docs";
                 options.DocExpansion(DocExpansion.List);
             });
         }
