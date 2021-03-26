@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+   <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package">
+    <PackageId>Cabother.Swagger.UI</PackageId>
+    <Authors>Renato Fernandes Soares</Authors>
+    <Company>Cabother's Labs</Company>
+    <Product>Cabother Swagger UI</Product>
+    <Description>Support library in the use of swagger in different versions of controllers</Description>
+    <Copyright>Copyright © Renato Fernandes Soares. All rights Reserved</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/cabother/Cabother-Swagger</RepositoryUrl>
+    <Authors>Renato Fernandes Soares</Authors>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageIcon>swagger.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.1.1" />
+  </ItemGroup>
+  
+  <PropertyGroup>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="./LICENSE" Pack="true" PackagePath="" />
+    <None Include="./Images/swagger.png" Pack="true" PackagePath=""/>
+  </ItemGroup>
+</Project>
