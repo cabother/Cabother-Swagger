@@ -56,10 +56,10 @@ https://www.nuget.org/packages/Cabother.Swagger.UI/
 - Agora, basta iniciar seu projeto com o seguinte comando:
   - `dotnet run`
 
-- Seu resultado será visível na porta default 5000 / 5001, exemplo: `https://localhost:5001/swagger` 
+- Seu resultado será visível na porta default 5000 / 5001, exemplo: `https://localhost:5001/api/docs` 
     - ![controller](./Images/swagger-example.png)
 
-Por padrão a documentação está disponível no endpoint `/swagger` . A documentação pode ser customizada a partir do arquivo `appsettings.json` alterando a seção exemplificada abaixo:
+Por padrão a documentação está disponível no endpoint `/api/docs` . A documentação pode ser customizada a partir do arquivo `appsettings.json` alterando a seção exemplificada abaixo:
 
 ```json
 {
