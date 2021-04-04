@@ -1,6 +1,11 @@
 # Cabother-Swagger
 
 Biblioteca de apoio ao uso de swagger em api's
+## Qual sua finalidade?
+- Apoiar no versionamento de controllers com uso de swagger (permitindo ter V1, V2, V3 ...etc)
+- Permitir diferentes versões de controllers / rotas no mesmo projeto de forma organizada
+- Simplificar o uso e configuração do swagger
+
 
 ## Nuget
 ```
@@ -12,7 +17,8 @@ https://www.nuget.org/packages/Cabother.Swagger.UI/
 
 - Executar retore das dependências instaladas através do comando:
   -  `dotnet restore`
-
+- Caso apresente mensagem de *conflito* com biblioteca do swagger ja existente no projeto, pode remover a biblioteca, pois no nuget acima já temos a versão do swagger atualizada.
+   
 - No seu arquivo `startup.cs` adicionar o seguinte using:
   -  `using Cabother.Swagger.UI.Extensions;` 
 
