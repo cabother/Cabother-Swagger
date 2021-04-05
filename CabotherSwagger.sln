@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cabother.Swagger.UI", "src\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cabother.Swagger.WebApi", "src\Cabother.Swagger.WebApi\Cabother.Swagger.WebApi.csproj", "{054AF52B-5584-465F-9E34-D2C188F1589B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EDA832A8-CC40-4E9C-8613-62A9C5414A73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cabother.Swagger.WebApi.Test", "test\Cabother.Swagger.WebApi.Test\Cabother.Swagger.WebApi.Test.csproj", "{4389AB38-1A80-4B92-855C-9BAE840562CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,9 +50,22 @@ Global
 		{054AF52B-5584-465F-9E34-D2C188F1589B}.Release|x64.Build.0 = Release|Any CPU
 		{054AF52B-5584-465F-9E34-D2C188F1589B}.Release|x86.ActiveCfg = Release|Any CPU
 		{054AF52B-5584-465F-9E34-D2C188F1589B}.Release|x86.Build.0 = Release|Any CPU
+		{4389AB38-1A80-4B92-855C-9BAE840562CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4389AB38-1A80-4B92-855C-9BAE840562CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4389AB38-1A80-4B92-855C-9BAE840562CE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4389AB38-1A80-4B92-855C-9BAE840562CE}.Debug|x64.Build.0 = Debug|Any CPU
+		{4389AB38-1A80-4B92-855C-9BAE840562CE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4389AB38-1A80-4B92-855C-9BAE840562CE}.Debug|x86.Build.0 = Debug|Any CPU
+		{4389AB38-1A80-4B92-855C-9BAE840562CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4389AB38-1A80-4B92-855C-9BAE840562CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4389AB38-1A80-4B92-855C-9BAE840562CE}.Release|x64.ActiveCfg = Release|Any CPU
+		{4389AB38-1A80-4B92-855C-9BAE840562CE}.Release|x64.Build.0 = Release|Any CPU
+		{4389AB38-1A80-4B92-855C-9BAE840562CE}.Release|x86.ActiveCfg = Release|Any CPU
+		{4389AB38-1A80-4B92-855C-9BAE840562CE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{33E0C4E3-8007-4577-902A-B9644CDC49BC} = {2C1D50D0-54B3-42BE-B37C-37926D168936}
 		{054AF52B-5584-465F-9E34-D2C188F1589B} = {2C1D50D0-54B3-42BE-B37C-37926D168936}
+		{4389AB38-1A80-4B92-855C-9BAE840562CE} = {EDA832A8-CC40-4E9C-8613-62A9C5414A73}
 	EndGlobalSection
 EndGlobal
